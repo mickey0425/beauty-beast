@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0BABA222B2280C00E650A6 /* iconfinder_interface-72_4634448.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0BABA122B2280C00E650A6 /* iconfinder_interface-72_4634448.png */; };
+		3D1731D922B0C9E20088E533 /* iconfinder_Camera_3069183.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731D722B0C9E20088E533 /* iconfinder_Camera_3069183.png */; };
+		3D1731DA22B0C9E20088E533 /* iconfinder_photos_283043.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731D822B0C9E20088E533 /* iconfinder_photos_283043.png */; };
+		3D1731DE22B0ECE00088E533 /* DeviceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1731DD22B0ECE00088E533 /* DeviceInput.swift */; };
+		3D1731E022B0F2820088E533 /* iconfinder_camera_3688509.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731DF22B0F2820088E533 /* iconfinder_camera_3688509.png */; };
+		3D1731E222B0F2870088E533 /* iconfinder_Citycons_camera_1342943.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731E122B0F2870088E533 /* iconfinder_Citycons_camera_1342943.png */; };
+		3D1731E422B0F28B0088E533 /* iconfinder_finger-click_1291778.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731E322B0F28B0088E533 /* iconfinder_finger-click_1291778.png */; };
+		3D1731E622B12DDF0088E533 /* iconfinder_Avatar_Famous_Characters-12_2612544.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731E522B12DDF0088E533 /* iconfinder_Avatar_Famous_Characters-12_2612544.png */; };
+		3D1731E822B12EEB0088E533 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1731E722B12EEB0088E533 /* PhotoViewController.swift */; };
+		3D1731EA22B1349C0088E533 /* iconfinder_document-06_1622830.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1731E922B1349C0088E533 /* iconfinder_document-06_1622830.png */; };
+		3D2243DE22AF953E007427BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2243DD22AF953E007427BD /* HomeViewController.swift */; };
+		3D2243E022B0A016007427BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2243DF22B0A016007427BD /* SignUpViewController.swift */; };
+		3DA592B422B281DA000EED22 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA592B322B281DA000EED22 /* GoogleService-Info.plist */; };
+		3DA592CE22B2A155000EED22 /* my_model in Resources */ = {isa = PBXBuildFile; fileRef = 3DA592CD22B2A155000EED22 /* my_model */; };
+		3DA8664922B243840029F0EC /* iconfinder_Black_Camera_60923.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA8664822B243840029F0EC /* iconfinder_Black_Camera_60923.png */; };
+		3DA8664B22B244A50029F0EC /* iconfinder_illustration_59166.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA8664A22B244A50029F0EC /* iconfinder_illustration_59166.png */; };
+		3DA8664D22B24B260029F0EC /* iconfinder_ui_ux_add_plus_new_4631321.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA8664C22B24B260029F0EC /* iconfinder_ui_ux_add_plus_new_4631321.png */; };
+		3DA8664F22B24E4A0029F0EC /* iconfinder_Holding_coin_2638334.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA8664E22B24E4A0029F0EC /* iconfinder_Holding_coin_2638334.png */; };
+		9419A3F736804206353276C0 /* Pods_BeautyAndBeast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5D69F3AABBDFB276294152 /* Pods_BeautyAndBeast.framework */; };
+		AE510762229E7EF1002EDE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE510761229E7EF1002EDE45 /* AppDelegate.swift */; };
+		AE510764229E7EF1002EDE45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE510763229E7EF1002EDE45 /* ViewController.swift */; };
+		AE510767229E7EF1002EDE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE510765229E7EF1002EDE45 /* Main.storyboard */; };
+		AE510769229E7EF3002EDE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE510768229E7EF3002EDE45 /* Assets.xcassets */; };
+		AE51076C229E7EF3002EDE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE51076A229E7EF3002EDE45 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C5D69F3AABBDFB276294152 /* Pods_BeautyAndBeast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeautyAndBeast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0BABA122B2280C00E650A6 /* iconfinder_interface-72_4634448.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfinder_interface-72_4634448.png"; sourceTree = "<group>"; };
+		3D1731D722B0C9E20088E533 /* iconfinder_Camera_3069183.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_Camera_3069183.png; sourceTree = "<group>"; };
+		3D1731D822B0C9E20088E533 /* iconfinder_photos_283043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_photos_283043.png; sourceTree = "<group>"; };
+		3D1731DD22B0ECE00088E533 /* DeviceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInput.swift; sourceTree = "<group>"; };
+		3D1731DF22B0F2820088E533 /* iconfinder_camera_3688509.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_camera_3688509.png; sourceTree = "<group>"; };
+		3D1731E122B0F2870088E533 /* iconfinder_Citycons_camera_1342943.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_Citycons_camera_1342943.png; sourceTree = "<group>"; };
+		3D1731E322B0F28B0088E533 /* iconfinder_finger-click_1291778.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfinder_finger-click_1291778.png"; sourceTree = "<group>"; };
+		3D1731E522B12DDF0088E533 /* iconfinder_Avatar_Famous_Characters-12_2612544.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfinder_Avatar_Famous_Characters-12_2612544.png"; sourceTree = "<group>"; };
+		3D1731E722B12EEB0088E533 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		3D1731E922B1349C0088E533 /* iconfinder_document-06_1622830.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfinder_document-06_1622830.png"; sourceTree = "<group>"; };
+		3D2243DD22AF953E007427BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D2243DF22B0A016007427BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3DA592B322B281DA000EED22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3DA592CD22B2A155000EED22 /* my_model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = my_model; sourceTree = "<group>"; };
+		3DA8664822B243840029F0EC /* iconfinder_Black_Camera_60923.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_Black_Camera_60923.png; sourceTree = "<group>"; };
+		3DA8664A22B244A50029F0EC /* iconfinder_illustration_59166.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_illustration_59166.png; sourceTree = "<group>"; };
+		3DA8664C22B24B260029F0EC /* iconfinder_ui_ux_add_plus_new_4631321.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_ui_ux_add_plus_new_4631321.png; sourceTree = "<group>"; };
+		3DA8664E22B24E4A0029F0EC /* iconfinder_Holding_coin_2638334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfinder_Holding_coin_2638334.png; sourceTree = "<group>"; };
+		5FD5837E29DAC56DE8E73A1A /* Pods-BeautyAndBeast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyAndBeast.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautyAndBeast/Pods-BeautyAndBeast.release.xcconfig"; sourceTree = "<group>"; };
+		AE51075E229E7EF1002EDE45 /* BeautyAndBeast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyAndBeast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE510761229E7EF1002EDE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE510763229E7EF1002EDE45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE510766229E7EF1002EDE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE510768229E7EF3002EDE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE51076B229E7EF3002EDE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE51076D229E7EF3002EDE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E275F56EE5E91A8B2C3CA414 /* Pods-BeautyAndBeast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyAndBeast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautyAndBeast/Pods-BeautyAndBeast.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE51075B229E7EF1002EDE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9419A3F736804206353276C0 /* Pods_BeautyAndBeast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147B94E70CD0EE1B0635B7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5D69F3AABBDFB276294152 /* Pods_BeautyAndBeast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D1731D622B0C9E20088E533 /* icon beauty */ = {
+			isa = PBXGroup;
+			children = (
+				3DA8664A22B244A50029F0EC /* iconfinder_illustration_59166.png */,
+				3DA8664822B243840029F0EC /* iconfinder_Black_Camera_60923.png */,
+				3D1731D822B0C9E20088E533 /* iconfinder_photos_283043.png */,
+				3D1731D722B0C9E20088E533 /* iconfinder_Camera_3069183.png */,
+				3D1731DF22B0F2820088E533 /* iconfinder_camera_3688509.png */,
+				3D1731E122B0F2870088E533 /* iconfinder_Citycons_camera_1342943.png */,
+				3D1731E322B0F28B0088E533 /* iconfinder_finger-click_1291778.png */,
+				3D1731E522B12DDF0088E533 /* iconfinder_Avatar_Famous_Characters-12_2612544.png */,
+				3D1731E922B1349C0088E533 /* iconfinder_document-06_1622830.png */,
+				3D0BABA122B2280C00E650A6 /* iconfinder_interface-72_4634448.png */,
+				3DA8664C22B24B260029F0EC /* iconfinder_ui_ux_add_plus_new_4631321.png */,
+				3DA8664E22B24E4A0029F0EC /* iconfinder_Holding_coin_2638334.png */,
+			);
+			path = "icon beauty";
+			sourceTree = SOURCE_ROOT;
+		};
+		481873CE6318A0B3DC5ADD79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E275F56EE5E91A8B2C3CA414 /* Pods-BeautyAndBeast.debug.xcconfig */,
+				5FD5837E29DAC56DE8E73A1A /* Pods-BeautyAndBeast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE510755229E7EF1002EDE45 = {
+			isa = PBXGroup;
+			children = (
+				AE510760229E7EF1002EDE45 /* BeautyAndBeast */,
+				AE51075F229E7EF1002EDE45 /* Products */,
+				481873CE6318A0B3DC5ADD79 /* Pods */,
+				147B94E70CD0EE1B0635B7F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE51075F229E7EF1002EDE45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE51075E229E7EF1002EDE45 /* BeautyAndBeast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE510760229E7EF1002EDE45 /* BeautyAndBeast */ = {
+			isa = PBXGroup;
+			children = (
+				3DA592CD22B2A155000EED22 /* my_model */,
+				AE510761229E7EF1002EDE45 /* AppDelegate.swift */,
+				AE510763229E7EF1002EDE45 /* ViewController.swift */,
+				3D2243DF22B0A016007427BD /* SignUpViewController.swift */,
+				3D2243DD22AF953E007427BD /* HomeViewController.swift */,
+				3D1731E722B12EEB0088E533 /* PhotoViewController.swift */,
+				AE510765229E7EF1002EDE45 /* Main.storyboard */,
+				AE510768229E7EF3002EDE45 /* Assets.xcassets */,
+				AE51076A229E7EF3002EDE45 /* LaunchScreen.storyboard */,
+				AE51076D229E7EF3002EDE45 /* Info.plist */,
+				3DA592B322B281DA000EED22 /* GoogleService-Info.plist */,
+				3D1731DD22B0ECE00088E533 /* DeviceInput.swift */,
+				3D1731D622B0C9E20088E533 /* icon beauty */,
+			);
+			path = BeautyAndBeast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE51075D229E7EF1002EDE45 /* BeautyAndBeast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE510770229E7EF3002EDE45 /* Build configuration list for PBXNativeTarget "BeautyAndBeast" */;
+			buildPhases = (
+				99C9C255F8199873D3A8BFDC /* [CP] Check Pods Manifest.lock */,
+				AE51075A229E7EF1002EDE45 /* Sources */,
+				AE51075B229E7EF1002EDE45 /* Frameworks */,
+				AE51075C229E7EF1002EDE45 /* Resources */,
+				9DAE3D104E25E9E5C8188BE4 /* [CP] Embed Pods Frameworks */,
+				305A1AEF7706167D1E444F23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyAndBeast;
+			productName = BeautyAndBeast;
+			productReference = AE51075E229E7EF1002EDE45 /* BeautyAndBeast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE510756229E7EF1002EDE45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李如昀";
+				TargetAttributes = {
+					AE51075D229E7EF1002EDE45 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AE510759229E7EF1002EDE45 /* Build configuration list for PBXProject "BeautyAndBeast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE510755229E7EF1002EDE45;
+			productRefGroup = AE51075F229E7EF1002EDE45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE51075D229E7EF1002EDE45 /* BeautyAndBeast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE51075C229E7EF1002EDE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1731E422B0F28B0088E533 /* iconfinder_finger-click_1291778.png in Resources */,
+				3D1731E222B0F2870088E533 /* iconfinder_Citycons_camera_1342943.png in Resources */,
+				3DA8664922B243840029F0EC /* iconfinder_Black_Camera_60923.png in Resources */,
+				3D1731D922B0C9E20088E533 /* iconfinder_Camera_3069183.png in Resources */,
+				3DA592CE22B2A155000EED22 /* my_model in Resources */,
+				3D1731E622B12DDF0088E533 /* iconfinder_Avatar_Famous_Characters-12_2612544.png in Resources */,
+				3D1731EA22B1349C0088E533 /* iconfinder_document-06_1622830.png in Resources */,
+				AE51076C229E7EF3002EDE45 /* LaunchScreen.storyboard in Resources */,
+				AE510769229E7EF3002EDE45 /* Assets.xcassets in Resources */,
+				3DA8664F22B24E4A0029F0EC /* iconfinder_Holding_coin_2638334.png in Resources */,
+				3DA592B422B281DA000EED22 /* GoogleService-Info.plist in Resources */,
+				3D1731DA22B0C9E20088E533 /* iconfinder_photos_283043.png in Resources */,
+				AE510767229E7EF1002EDE45 /* Main.storyboard in Resources */,
+				3D0BABA222B2280C00E650A6 /* iconfinder_interface-72_4634448.png in Resources */,
+				3DA8664D22B24B260029F0EC /* iconfinder_ui_ux_add_plus_new_4631321.png in Resources */,
+				3D1731E022B0F2820088E533 /* iconfinder_camera_3688509.png in Resources */,
+				3DA8664B22B244A50029F0EC /* iconfinder_illustration_59166.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		305A1AEF7706167D1E444F23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyAndBeast/Pods-BeautyAndBeast-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautyAndBeast/Pods-BeautyAndBeast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99C9C255F8199873D3A8BFDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyAndBeast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAE3D104E25E9E5C8188BE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeautyAndBeast/Pods-BeautyAndBeast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeautyAndBeast/Pods-BeautyAndBeast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE51075A229E7EF1002EDE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE510764229E7EF1002EDE45 /* ViewController.swift in Sources */,
+				AE510762229E7EF1002EDE45 /* AppDelegate.swift in Sources */,
+				3D2243E022B0A016007427BD /* SignUpViewController.swift in Sources */,
+				3D1731E822B12EEB0088E533 /* PhotoViewController.swift in Sources */,
+				3D1731DE22B0ECE00088E533 /* DeviceInput.swift in Sources */,
+				3D2243DE22AF953E007427BD /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE510765229E7EF1002EDE45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE510766229E7EF1002EDE45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE51076A229E7EF3002EDE45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE51076B229E7EF3002EDE45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE51076E229E7EF3002EDE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE51076F229E7EF3002EDE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE510771229E7EF3002EDE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E275F56EE5E91A8B2C3CA414 /* Pods-BeautyAndBeast.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAQJR89U6P;
+				INFOPLIST_FILE = BeautyAndBeast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautyAndBeast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE510772229E7EF3002EDE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD5837E29DAC56DE8E73A1A /* Pods-BeautyAndBeast.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SAQJR89U6P;
+				INFOPLIST_FILE = BeautyAndBeast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeautyAndBeast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE510759229E7EF1002EDE45 /* Build configuration list for PBXProject "BeautyAndBeast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE51076E229E7EF3002EDE45 /* Debug */,
+				AE51076F229E7EF3002EDE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE510770229E7EF3002EDE45 /* Build configuration list for PBXNativeTarget "BeautyAndBeast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE510771229E7EF3002EDE45 /* Debug */,
+				AE510772229E7EF3002EDE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE510756229E7EF1002EDE45 /* Project object */;
+}
